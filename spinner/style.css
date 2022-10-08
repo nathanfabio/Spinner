@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    margin-top: 70px;
+    color: rgba(2, 53, 53, 1);
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    border-color: rgba(2, 53, 53, 0.411);
+    border-width: 1px;
+    border-style: solid;
+    box-shadow: 6px 6px 8px rgba(2, 53, 53, 0.411);
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px rgba(2, 53, 53, 0.164);
+    margin-bottom: 40px;
+}
+
+#carregando {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgba(2, 53, 53, 0.274);
+    border-radius: 50%;
+    border-top-color: rgba(2, 53, 53, 1);
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { -webkit-transform: rotate(360deg);}
+}
+@-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg);}
+}
