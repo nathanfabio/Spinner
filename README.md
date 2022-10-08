@@ -1,0 +1,2 @@
+# Spinner
+ Tela de carregamento
